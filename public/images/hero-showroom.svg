@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Автомобильный шоурум">
+  <rect width="1600" height="900" fill="#f8fafc"/>
+  <path d="M0 570h1600v330H0z" fill="#dfe5ec"/>
+  <path d="M0 0h1600v520H0z" fill="#eef5f5"/>
+  <path d="M180 180h1240v250H180z" fill="#fff" opacity=".76"/>
+  <path d="M220 220h250v170H220zm320 0h250v170H540zm320 0h250v170H860zm320 0h200v170h-200z" fill="#cbd5df"/>
+  <path d="M360 580c38-85 108-128 210-128h355c98 0 174 42 228 126l93 32c45 15 74 57 74 104v26H264v-28c0-47 29-88 73-103z" fill="#18202a"/>
+  <path d="M514 486h380c59 0 110 28 145 82H428c21-52 50-82 86-82z" fill="#eaf7f4"/>
+  <circle cx="480" cy="735" r="78" fill="#0f1720"/>
+  <circle cx="480" cy="735" r="34" fill="#dfe5ec"/>
+  <circle cx="1084" cy="735" r="78" fill="#0f1720"/>
+  <circle cx="1084" cy="735" r="34" fill="#dfe5ec"/>
+  <path d="M315 625h210l33-82h260l54 82h313l40 39H290z" fill="#c91f2c"/>
+</svg>

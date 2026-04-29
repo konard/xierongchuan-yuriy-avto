@@ -1,0 +1,38 @@
+services:
+  app:
+    image: docker.io/library/php:8.5-cli
+    working_dir: /app
+    volumes:
+      - ./:/app:Z
+    env_file:
+      - .env
+    command: php artisan serve --host=0.0.0.0 --port=8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+
+  node:
+    image: docker.io/library/node:22
+    working_dir: /app
+    volumes:
+      - ./:/app:Z
+    command: npm run dev -- --host 0.0.0.0
+    ports:
+      - "5173:5173"
+
+  postgres:
+    image: docker.io/library/postgres:18
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DB_DATABASE}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data:Z
+
+volumes:
+  postgres-data:
