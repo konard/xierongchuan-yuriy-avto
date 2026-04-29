@@ -5,15 +5,19 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite --host 0.0.0.0"
+    "dev": "vite --host 0.0.0.0",
+    "screenshots": "npm run capture:all-pages",
+    "preview:static": "node experiments/static-preview.mjs",
+    "capture:all-pages": "node experiments/capture-all-pages.mjs"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.0",
     "axios": "^1.13.0",
     "concurrently": "^9.2.0",
     "laravel-vite-plugin": "^2.0.0",
-    "vite": "^7.2.0",
+    "playwright": "^1.59.1",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "vite": "^7.2.0"
   }
 }

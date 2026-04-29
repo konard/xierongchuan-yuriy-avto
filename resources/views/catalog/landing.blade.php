@@ -10,10 +10,18 @@
             <p>{{ $description }}</p>
             <a class="primary" href="#lead">Получить предложения дилеров</a>
         </div>
-        <div class="hero__panel">
-            <span>Цена от {{ number_format($brand['min_price'], 0, ',', ' ') }} ₽</span>
-            <span>{{ count($brand['models']) }} модели</span>
-            <span>Подбор за 15 минут</span>
+        <div class="hero__visual hero__visual--compact" aria-label="{{ $brand['name'] }} в наличии">
+            <div class="car-plate car-plate--small">
+                <span class="car-plate__roof"></span>
+                <span class="car-plate__body"></span>
+                <span class="car-plate__wheel car-plate__wheel--left"></span>
+                <span class="car-plate__wheel car-plate__wheel--right"></span>
+            </div>
+            <div class="hero__panel">
+                <span>Цена от {{ number_format($brand['min_price'], 0, ',', ' ') }} ₽</span>
+                <span>{{ $brand['stock'] }} авто в подборке</span>
+                <span>Подбор за 15 минут</span>
+            </div>
         </div>
     </section>
 
@@ -24,7 +32,11 @@
                 <article class="card">
                     <div class="badge">В наличии</div>
                     <h3>{{ $brand['name'] }} {{ $model }}</h3>
-                    <p>от {{ number_format($brand['min_price'] + $loop->index * 270000, 0, ',', ' ') }} ₽ · гарантия дилера · ПТС в наличии</p>
+                    <p>от {{ number_format($brand['min_price'] + $loop->index * 270000, 0, ',', ' ') }} ₽ · {{ $brand['body'] }} · {{ $brand['power'] }}</p>
+                    <div class="card__meta">
+                        <span>Гарантия дилера</span>
+                        <span>Кредит онлайн</span>
+                    </div>
                     <a href="#lead">Запросить цену</a>
                 </article>
             @endforeach

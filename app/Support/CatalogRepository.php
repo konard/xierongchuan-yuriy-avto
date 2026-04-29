@@ -7,7 +7,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 final readonly class CatalogRepository
 {
-    /** @return Collection<int, array{slug: string, name: string, models: list<string>, min_price: int}> */
+    /** @return Collection<int, array{slug: string, name: string, models: list<string>, min_price: int, body: string, power: string, stock: int}> */
     public function brands(): Collection
     {
         return collect(require base_path('data/catalog.php'))->get('brands');
@@ -31,7 +31,7 @@ final readonly class CatalogRepository
         ];
     }
 
-    /** @return array{slug: string, name: string, models: list<string>, min_price: int} */
+    /** @return array{slug: string, name: string, models: list<string>, min_price: int, body: string, power: string, stock: int} */
     public function brand(string $slug): array
     {
         return $this->brands()->firstWhere('slug', $slug) ?? throw new NotFoundHttpException;

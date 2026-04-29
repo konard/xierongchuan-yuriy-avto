@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="topbar">
-        <a class="brand" href="{{ route('home') }}">{{ $contacts['site_name'] }}</a>
+        <a class="brand" href="{{ route('home') }}"><span>YA</span>{{ $contacts['site_name'] }}</a>
         <nav aria-label="Основная навигация">
             <a href="{{ route('home') }}#brands">Марки</a>
             <a href="{{ route('home') }}#cities">Города</a>

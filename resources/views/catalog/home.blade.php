@@ -4,9 +4,9 @@
 <main>
     <section class="hero">
         <div class="hero__copy">
-            <p class="eyebrow">Автомобили от официальных дилеров</p>
-            <h1>Новые авто по маркам и городам</h1>
-            <p>SEO-каталог с посадочными страницами для спроса вида “купить Geely в Москве”, “цены Haval в Казани” и похожих коммерческих запросов.</p>
+            <p class="eyebrow">Новые автомобили от официальных дилеров</p>
+            <h1>Подбор авто по марке, городу и реальной цене</h1>
+            <p>Коммерческие посадочные страницы для заявок на новые Geely, Haval, Chery, LADA, OMODA и Tank с локальными дилерами, кредитом и trade-in.</p>
             <form class="search" action="{{ route('landings.show', ['brand' => 'geely', 'city' => 'moskva']) }}">
                 <select aria-label="Марка">
                     @foreach ($brands as $brand)
@@ -21,10 +21,18 @@
                 <button>Показать предложения</button>
             </form>
         </div>
-        <div class="hero__panel" aria-label="Сводка предложений">
-            <span>{{ $brands->count() }} марок</span>
-            <span>{{ $cities->count() }} городов</span>
-            <span>{{ $landingLinks->count() }} SEO страниц</span>
+        <div class="hero__visual" aria-label="Витрина автомобилей">
+            <div class="car-plate">
+                <span class="car-plate__roof"></span>
+                <span class="car-plate__body"></span>
+                <span class="car-plate__wheel car-plate__wheel--left"></span>
+                <span class="car-plate__wheel car-plate__wheel--right"></span>
+            </div>
+            <div class="hero__panel" aria-label="Сводка предложений">
+                <span>{{ $brands->count() }} марок</span>
+                <span>{{ $cities->count() }} городов</span>
+                <span>{{ $landingLinks->count() }} SEO страниц</span>
+            </div>
         </div>
     </section>
 
@@ -36,7 +44,11 @@
                 <article class="card">
                     <div class="badge">{{ $city['name'] }}</div>
                     <h3>{{ $brand['name'] }} {{ $brand['models'][0] }}</h3>
-                    <p>от {{ number_format($brand['min_price'], 0, ',', ' ') }} ₽, кредит от 4,9%, trade-in и резерв у дилера.</p>
+                    <p>{{ $brand['body'] }}, {{ $brand['power'] }}. От {{ number_format($brand['min_price'], 0, ',', ' ') }} ₽, кредит от 4,9%, trade-in и резерв у дилера.</p>
+                    <div class="card__meta">
+                        <span>{{ $brand['stock'] }} авто</span>
+                        <span>ПТС в наличии</span>
+                    </div>
                     <a href="{{ route('landings.show', ['brand' => $brand['slug'], 'city' => $city['slug']]) }}">Смотреть {{ $brand['name'] }} в {{ $city['name'] }}</a>
                 </article>
             @endforeach

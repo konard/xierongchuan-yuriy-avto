@@ -1,0 +1,247 @@
+[
+  {
+    "path": "/",
+    "name": "home",
+    "screenshot": "docs/screenshots/all-pages/home.png"
+  },
+  {
+    "path": "/cars/geely",
+    "name": "brand-geely",
+    "screenshot": "docs/screenshots/all-pages/brand-geely.png"
+  },
+  {
+    "path": "/cars/haval",
+    "name": "brand-haval",
+    "screenshot": "docs/screenshots/all-pages/brand-haval.png"
+  },
+  {
+    "path": "/cars/chery",
+    "name": "brand-chery",
+    "screenshot": "docs/screenshots/all-pages/brand-chery.png"
+  },
+  {
+    "path": "/cars/lada",
+    "name": "brand-lada",
+    "screenshot": "docs/screenshots/all-pages/brand-lada.png"
+  },
+  {
+    "path": "/cars/omoda",
+    "name": "brand-omoda",
+    "screenshot": "docs/screenshots/all-pages/brand-omoda.png"
+  },
+  {
+    "path": "/cars/tank",
+    "name": "brand-tank",
+    "screenshot": "docs/screenshots/all-pages/brand-tank.png"
+  },
+  {
+    "path": "/cities/moskva",
+    "name": "city-moskva",
+    "screenshot": "docs/screenshots/all-pages/city-moskva.png"
+  },
+  {
+    "path": "/cities/spb",
+    "name": "city-spb",
+    "screenshot": "docs/screenshots/all-pages/city-spb.png"
+  },
+  {
+    "path": "/cities/kazan",
+    "name": "city-kazan",
+    "screenshot": "docs/screenshots/all-pages/city-kazan.png"
+  },
+  {
+    "path": "/cities/ekaterinburg",
+    "name": "city-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/city-ekaterinburg.png"
+  },
+  {
+    "path": "/cities/novosibirsk",
+    "name": "city-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/city-novosibirsk.png"
+  },
+  {
+    "path": "/cities/krasnodar",
+    "name": "city-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/city-krasnodar.png"
+  },
+  {
+    "path": "/cars/geely/moskva",
+    "name": "landing-geely-moskva",
+    "screenshot": "docs/screenshots/all-pages/landing-geely-moskva.png"
+  },
+  {
+    "path": "/cars/geely/spb",
+    "name": "landing-geely-spb",
+    "screenshot": "docs/screenshots/all-pages/landing-geely-spb.png"
+  },
+  {
+    "path": "/cars/geely/kazan",
+    "name": "landing-geely-kazan",
+    "screenshot": "docs/screenshots/all-pages/landing-geely-kazan.png"
+  },
+  {
+    "path": "/cars/geely/ekaterinburg",
+    "name": "landing-geely-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/landing-geely-ekaterinburg.png"
+  },
+  {
+    "path": "/cars/geely/novosibirsk",
+    "name": "landing-geely-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/landing-geely-novosibirsk.png"
+  },
+  {
+    "path": "/cars/geely/krasnodar",
+    "name": "landing-geely-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/landing-geely-krasnodar.png"
+  },
+  {
+    "path": "/cars/haval/moskva",
+    "name": "landing-haval-moskva",
+    "screenshot": "docs/screenshots/all-pages/landing-haval-moskva.png"
+  },
+  {
+    "path": "/cars/haval/spb",
+    "name": "landing-haval-spb",
+    "screenshot": "docs/screenshots/all-pages/landing-haval-spb.png"
+  },
+  {
+    "path": "/cars/haval/kazan",
+    "name": "landing-haval-kazan",
+    "screenshot": "docs/screenshots/all-pages/landing-haval-kazan.png"
+  },
+  {
+    "path": "/cars/haval/ekaterinburg",
+    "name": "landing-haval-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/landing-haval-ekaterinburg.png"
+  },
+  {
+    "path": "/cars/haval/novosibirsk",
+    "name": "landing-haval-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/landing-haval-novosibirsk.png"
+  },
+  {
+    "path": "/cars/haval/krasnodar",
+    "name": "landing-haval-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/landing-haval-krasnodar.png"
+  },
+  {
+    "path": "/cars/chery/moskva",
+    "name": "landing-chery-moskva",
+    "screenshot": "docs/screenshots/all-pages/landing-chery-moskva.png"
+  },
+  {
+    "path": "/cars/chery/spb",
+    "name": "landing-chery-spb",
+    "screenshot": "docs/screenshots/all-pages/landing-chery-spb.png"
+  },
+  {
+    "path": "/cars/chery/kazan",
+    "name": "landing-chery-kazan",
+    "screenshot": "docs/screenshots/all-pages/landing-chery-kazan.png"
+  },
+  {
+    "path": "/cars/chery/ekaterinburg",
+    "name": "landing-chery-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/landing-chery-ekaterinburg.png"
+  },
+  {
+    "path": "/cars/chery/novosibirsk",
+    "name": "landing-chery-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/landing-chery-novosibirsk.png"
+  },
+  {
+    "path": "/cars/chery/krasnodar",
+    "name": "landing-chery-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/landing-chery-krasnodar.png"
+  },
+  {
+    "path": "/cars/lada/moskva",
+    "name": "landing-lada-moskva",
+    "screenshot": "docs/screenshots/all-pages/landing-lada-moskva.png"
+  },
+  {
+    "path": "/cars/lada/spb",
+    "name": "landing-lada-spb",
+    "screenshot": "docs/screenshots/all-pages/landing-lada-spb.png"
+  },
+  {
+    "path": "/cars/lada/kazan",
+    "name": "landing-lada-kazan",
+    "screenshot": "docs/screenshots/all-pages/landing-lada-kazan.png"
+  },
+  {
+    "path": "/cars/lada/ekaterinburg",
+    "name": "landing-lada-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/landing-lada-ekaterinburg.png"
+  },
+  {
+    "path": "/cars/lada/novosibirsk",
+    "name": "landing-lada-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/landing-lada-novosibirsk.png"
+  },
+  {
+    "path": "/cars/lada/krasnodar",
+    "name": "landing-lada-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/landing-lada-krasnodar.png"
+  },
+  {
+    "path": "/cars/omoda/moskva",
+    "name": "landing-omoda-moskva",
+    "screenshot": "docs/screenshots/all-pages/landing-omoda-moskva.png"
+  },
+  {
+    "path": "/cars/omoda/spb",
+    "name": "landing-omoda-spb",
+    "screenshot": "docs/screenshots/all-pages/landing-omoda-spb.png"
+  },
+  {
+    "path": "/cars/omoda/kazan",
+    "name": "landing-omoda-kazan",
+    "screenshot": "docs/screenshots/all-pages/landing-omoda-kazan.png"
+  },
+  {
+    "path": "/cars/omoda/ekaterinburg",
+    "name": "landing-omoda-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/landing-omoda-ekaterinburg.png"
+  },
+  {
+    "path": "/cars/omoda/novosibirsk",
+    "name": "landing-omoda-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/landing-omoda-novosibirsk.png"
+  },
+  {
+    "path": "/cars/omoda/krasnodar",
+    "name": "landing-omoda-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/landing-omoda-krasnodar.png"
+  },
+  {
+    "path": "/cars/tank/moskva",
+    "name": "landing-tank-moskva",
+    "screenshot": "docs/screenshots/all-pages/landing-tank-moskva.png"
+  },
+  {
+    "path": "/cars/tank/spb",
+    "name": "landing-tank-spb",
+    "screenshot": "docs/screenshots/all-pages/landing-tank-spb.png"
+  },
+  {
+    "path": "/cars/tank/kazan",
+    "name": "landing-tank-kazan",
+    "screenshot": "docs/screenshots/all-pages/landing-tank-kazan.png"
+  },
+  {
+    "path": "/cars/tank/ekaterinburg",
+    "name": "landing-tank-ekaterinburg",
+    "screenshot": "docs/screenshots/all-pages/landing-tank-ekaterinburg.png"
+  },
+  {
+    "path": "/cars/tank/novosibirsk",
+    "name": "landing-tank-novosibirsk",
+    "screenshot": "docs/screenshots/all-pages/landing-tank-novosibirsk.png"
+  },
+  {
+    "path": "/cars/tank/krasnodar",
+    "name": "landing-tank-krasnodar",
+    "screenshot": "docs/screenshots/all-pages/landing-tank-krasnodar.png"
+  }
+]
